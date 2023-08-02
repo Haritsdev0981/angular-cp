@@ -34,7 +34,7 @@ import { PictureUploadComponent } from "./components/picture-upload/picture-uplo
     SectionsComponent,
     NavbarComponent,
     FooterComponent,
-    PictureUploadComponent,
+    PictureUploadComponent
   ],
   imports: [
     CommonModule,
