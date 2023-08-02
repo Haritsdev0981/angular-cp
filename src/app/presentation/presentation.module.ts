@@ -7,9 +7,9 @@ import { PresentationComponent } from "./presentation.component";
 import { CarouselModule } from "ngx-bootstrap/carousel";
 import { BsDropdownModule } from "ngx-bootstrap/dropdown";
 import { CollapseModule } from "ngx-bootstrap/collapse";
-
+import { LayananComponent } from "../components/layanan/layanan.component";
 @NgModule({
-  declarations: [PresentationComponent],
+  declarations: [PresentationComponent, LayananComponent],
   imports: [
     CommonModule,
     FormsModule,

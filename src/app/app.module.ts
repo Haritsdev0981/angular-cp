@@ -34,7 +34,7 @@ import { PictureUploadComponent } from "./components/picture-upload/picture-uplo
     SectionsComponent,
     NavbarComponent,
     FooterComponent,
-    PictureUploadComponent
+    PictureUploadComponent,
   ],
   imports: [
     CommonModule,
@@ -55,7 +55,7 @@ import { PictureUploadComponent } from "./components/picture-upload/picture-uplo
     AlertModule.forRoot(),
     BsDatepickerModule.forRoot(),
     CarouselModule.forRoot(),
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]
