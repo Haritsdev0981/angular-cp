@@ -1,13 +1,13 @@
-<nav class="navbar navbar-expand-lg navbar-absolute">
+<nav class="navbar navbar-expand-lg navbar-absolute  headroom" id="navbar-main">
   <div class="container">
     <div class="navbar-translate">
-      <a class="navbar-brand" href="javascript:;"> Creative Tim </a>
+      <a class="navbar-brand" [routerLink]="['/index']"> Creative Tim </a>
       <button aria-controls="navbarSupportedContent" aria-label="Toggle navigation" class="navbar-toggler"
-        [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="example-header-6" type="button">
+        [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navbar_global" type="button">
         <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
       </button>
     </div>
-    <div class="navbar-collapse collaspse" [isAnimated]="true" [collapse]="isCollapsed" id="example-header-6">
+    <div class="navbar-collapse collaspse" [isAnimated]="true" [collapse]="isCollapsed" id="navbar_global">
       <div class="navbar-collapse-header">
         <div class="row">
           <div class="col-6 collapse-brand">
@@ -15,7 +15,7 @@
           </div>
           <div class="col-6 collapse-close text-right">
             <button aria-controls="navigation-index" aria-label="Toggle navigation" class="navbar-toggler"
-              [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="example-header-6"
+              [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed" id="navbar_global"
               type="button">
               <span> </span> <span> </span>
             </button>
