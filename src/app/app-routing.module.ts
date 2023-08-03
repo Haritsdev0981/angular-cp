@@ -1,14 +1,14 @@
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
-import { IndexComponent } from "./index/index.component";
 import { PresentationComponent } from "./presentation/presentation.component";
 import { SectionsComponent } from "./sections/sections.component";
+import { TentangkamiComponent } from "./tentangkami/tentangkami.component";
 
 const routes: Routes = [
   { path: "", redirectTo: "presentation", pathMatch: "full" },
-  { path: "index", component: IndexComponent },
   { path: "presentation", component: PresentationComponent },
+  { path: "tentangkami", component: TentangkamiComponent },
   { path: "sections", component: SectionsComponent },
 ];
 

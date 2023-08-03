@@ -27,6 +27,7 @@ import { SectionsComponent } from "./sections/sections.component";
 import { NavbarComponent } from "./components/navbar/navbar.component";
 import { FooterComponent } from "./components/footer/footer.component";
 import { PictureUploadComponent } from "./components/picture-upload/picture-upload.component";
+import { TentangkamiComponent } from './tentangkami/tentangkami.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,8 @@ import { PictureUploadComponent } from "./components/picture-upload/picture-uplo
     SectionsComponent,
     NavbarComponent,
     FooterComponent,
-    PictureUploadComponent
+    PictureUploadComponent,
+    TentangkamiComponent
   ],
   imports: [
     CommonModule,

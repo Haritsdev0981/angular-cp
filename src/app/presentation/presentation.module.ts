@@ -11,8 +11,9 @@ import { CollapseModule } from "ngx-bootstrap/collapse";
 import { LayananComponent } from "../components/layanan/layanan.component";
 import { PricingComponent } from "../components/pricing/pricing.component";
 import { TestimonialComponent } from "../components/testimonial/testimonial.component";
+import { OurcustomerComponent } from "../components/ourcustomer/ourcustomer.component";
 @NgModule({
-  declarations: [PresentationComponent, LayananComponent, PricingComponent, TestimonialComponent],
+  declarations: [PresentationComponent, LayananComponent, PricingComponent, TestimonialComponent, OurcustomerComponent],
   imports: [
     CommonModule,
     FormsModule,
